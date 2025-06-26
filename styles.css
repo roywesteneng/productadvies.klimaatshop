@@ -1,0 +1,237 @@
+body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f6f9fc;
+      color: #333;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .header {
+      background-color: #000290;
+      color: white;
+      text-align: center;
+    }
+
+  .header img {
+    height: 50px;
+    width: auto;
+    }
+
+    .product-title {
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .subline {
+      font-size: 1.1rem;
+    }
+
+    .highlight {
+      background-color: #fff3cd;
+      border-left: 5px solid #ffc107;
+      padding: 1rem;
+      margin: 2rem 0;
+      border-radius: 8px;
+    }
+
+    .alt-products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+
+    .product {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .product img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+    }
+
+    .product h3 {
+      margin: 0.5rem 0;
+      font-size: 1.1rem;
+    }
+
+    .product p {
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #000290;
+      color: white;
+      text-decoration: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+
+    .usp {
+      background-color: #eef6f7;
+      padding: 1.5rem;
+      border-radius: 8px;
+    }
+
+    .usp h2 {
+      margin-top: 0;
+    }
+
+    .usp ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .usp li {
+      margin: 0.5rem 0;
+    }
+
+ .slider-container {
+      position: relative;
+    }
+
+    .slider {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      gap: 1rem;
+      padding-bottom: 1rem;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .slider .product {
+      min-width: 260px;
+      max-width: 260px;
+      flex: 0 0 auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+      scroll-snap-align: start;
+      text-align: center;
+    }
+
+    .slider .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+      object-fit: cover;
+    }
+
+    .slider .product h3 {
+      font-size: 1.1rem;
+      margin: 0.5rem 0;
+    }
+
+    .slider .product p {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 1rem;
+    }
+
+    .slider .btn {
+      background: #000290;
+      color: white;
+      text-decoration: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .slider::-webkit-scrollbar {
+      display: none;
+    }
+
+    .slider {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .slider-nav {
+      position: absolute;
+      top: 35%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      pointer-events: none;
+    }
+
+    .slider-nav button {
+      background-color: #000290;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      pointer-events: all;
+}
+
+.footer {
+  background-color: #000290;
+  color: white;
+  padding: 3em 1em;
+  font-size: 0.9em;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2em;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  min-width: 200px;
+}
+
+.footer-column h4 {
+  font-size: 1.1em;
+  margin-bottom: 0.8em;
+  color: white;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.5em;
+}
+
+.footer-column ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-column p {
+  margin: 0.5em 0;
+  line-height: 1.4;
+}
